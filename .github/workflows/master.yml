@@ -18,8 +18,4 @@ jobs:
         server: www.tomibintono.com
         username: ${{ secrets.ftp_username }}
         password: ${{ secrets.ftp_password }}
-<<<<<<< HEAD
         server-dir : public_html/computiv8.tomibintono.com/
-=======
-        server-dir : public_html/computiv8.tomibintono.com/
->>>>>>> 5c82bd44763178720551cf2e7f1ec81c3ac39679
