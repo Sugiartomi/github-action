@@ -15,7 +15,8 @@ jobs:
     - name: 📂 Sync files
       uses: SamKirkland/FTP-Deploy-Action@v4.3.4
       with:
-        server: www.tomibintono.com
+        server: ftp.tomibintono.com
+        port: 21
         username: ${{ secrets.ftp_username }}
         password: ${{ secrets.ftp_password }}
-        server-dir : /computiv8.tomibintono.com/
+        server-dir : /home/tomi1487/public_html/computiv8.tomibintono.com/
